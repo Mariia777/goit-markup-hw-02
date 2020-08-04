@@ -1,1 +1,11 @@
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
 
+.logo-link {
+  color: #000000;
+}
+.logo-accent {
+  color: #2196f3;
+}
