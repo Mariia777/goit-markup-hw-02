@@ -4,26 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="page-header">
       <nav>
-        <a lang="en" href="./index.html" class="logo">Web Studio</a>
+        <a lang="en" href="Portfolio.html" class="logo-link">
+          <span class="logo-accent"> Web </span> Studio
+        </a>
         <ul class="site-nav list">
           <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
+          <li><a href="" class="link current">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="site-nav list">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com></a>
+          <a href="mailto:info@devstudio.com" class="adress"
+            >info@devstudio.com></a
+          >
         </li>
         <li>
-          <a href="tel:+380961111111">+380961111111</a>
+          <a href="tel:+380961111111" class="adress">+380961111111</a>
         </li>
       </ul>
     </header>
@@ -43,65 +51,57 @@
         <ul class="portfolio-project menu">
           <li>
             <img
-              src="./img/portfolio/notebook.jpg"
+              src="images/hoveroverlay(1).png"
               alt="notebook"
               width="370"
               height="294"
             />
             <h2 class="heading-project">Технокряк</h2>
             <p class="project">Веб-сайт</p>
-            <p>
+            <p class="text-project">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p>
           </li>
           <li>
-            <img src="./img/portfolio/poster.jpg" alt="poster" width="370" />
+            <img src="/images/img(7).png" alt="poster" width="370" />
             <h2 class="heading-project">Постер New Orlean vs Golden Star</h2>
             <p class="project">Дизайн</p>
           </li>
           <li>
-            <img src="./img/portfolio/seafood.jpg" alt="seafood" width="370" />
+            <img src="/images/img(8).png" alt="seafood" width="370" />
             <h2 class="heading-project">Ресторан Seafood</h2>
             <p class="project">Приложение</p>
           </li>
           <li>
-            <img src="./img/portfolio/prime.jpg" alt="prime" width="370" />
+            <img src="/images/img(9).png" alt="prime" width="370" />
             <h2 class="heading-project">Проект Prime</h2>
             <p class="project">Маркетинг</p>
           </li>
           <li>
-            <img src="./img/portfolio/boxes.jpg" alt="boxes" width="370" />
+            <img src="/images/img(10).png" alt="boxes" width="370" />
             <h2 class="heading-project">Проект Boxes</h2>
             <p class="project">Приложение</p>
           </li>
           <li>
-            <img
-              src="./img/portfolio/solutions.jpg"
-              alt="solutions"
-              width="370"
-            />
+            <img src="/images/img(11).png" alt="solutions" width="370" />
             <h2 class="heading-project">Inspiration has no Borders</h2>
             <p class="project">Веб-сайт</p>
           </li>
           <li>
-            <img
-              src="./img/portfolio/limited.jpg"
-              alt="limited-edition"
-              width="370"
-            />
+            <img src="/images/img(12).png" alt="limited-edition" width="370" />
             <h2 class="heading-project">Издание Limited Edition</h2>
             <p class="project">Дизайн</p>
           </li>
           <li>
-            <img src="./img/portfolio/lab.jpg" alt="project-lab" width="370" />
+            <img src="/images/img(13).png" alt="project-lab" width="370" />
             <h2 class="heading-project">Проект LAB</h2>
             <p class="project">Маркетинг</p>
           </li>
           <li>
             <img
-              src="./img/portfolio/growing.jpg"
+              src="/images/img(14).png"
               alt="g0rowing-business"
               width="370"
             />
@@ -111,84 +111,57 @@
         </ul>
       </section>
     </main>
-
+  
     <footer class="bg-color">
-      <div>
-        <a href="index.html" class="studio">
-          <span class="logo-footer">Web</span>
-          Studio
-        </a>
-      </div>
-      <!----address---->
-      <div>
-        <address class="adress">
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-        </address>
-        <ul class="contacts-footer">
-          <li>
-            <a
-              href="mailto:info@devstudio.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="contacts-adres"
-            >
-              info@devstudio.com
-            </a>
-          </li>
-          <br />
-          <li>
-            <a href="tel:+380961111111" class="contacts-adres">
-              +38 096 111 11 11
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-----social networks----->
-      <div>
-        <section>
-          <p class="networks"><b>присоединяйтесь</b></p>
-          <ul class="list">
-            <li>
-              <a href="#" target="_blank"
-                ><img
-                  src="./img/portfolio/social-link/instagram2.svg"
-                  alt="instagram"
-              /></a>
-            </li>
-            <li>
-              <a href="#" target="_blank"
-                ><img
-                  src="./img/portfolio/social-link/twitter.svg"
-                  alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a href="#" target="_blank"
-                ><img
-                  src="./img/portfolio/social-link/facebook.svg"
-                  alt="facebook"
-              /></a>
-            </li>
-            <li>
-              <a href="#" target="_blank"
-                ><img
-                  src="./img/portfolio/social-link/linkedin.svg"
-                  alt="linkedin"
-              /></a>
-            </li>
-          </ul>
-        </section>
-    
-    <p>Подпишитесь на рассылку</p>
     <div>
-        <ul>
-            <li>
-                <adress><a href="" lang="en">info@example.com</a></adress>
-            </li>
-            <li><a href="">Подписаться</a>
-            </li>
-        </ul>
+      <a lang="en" href="./index.html" class="logo-link">
+        <span class="logo-accent"> Web </span> Studio </a>
+      <address class="address-footer" <p>г. Киев, пр-т Леси Украинки, 26</p>
+      </address>
+      <ul class="contacts-nav">
+        <li>
+          <a href="mailto:info@devstudio.com">info@devstudio.com></a>
+        </li>
+        <li>
+          <a href="tel:+380961111111">+380961111111</a>
+        </li>
+      </ul>
     </div>
-    </footer>
-  </body>
+  
+    <p class="networks">Присоединяйтесь</p>
+    <ul class="link">
+      <li>
+        <a href="" aria-label="Instagram">
+          <img src="./images/ellipse.png" alt="Instgram" width="44">
+        </a>
+      </li>
+      <li>
+        <a href="" aria-label="Twitter">
+          <img src="./images/ellipse(1).png" alt="Twitter" width="44">
+        </a>
+      </li>
+      <li>
+        <a href="" aria-label="Facebook">
+          <img src="./images/ellipse(2).png" alt="Facebook" width="44">
+        </a>
+      </li>
+      <li>
+        <a href="" aria-label="Linkedin">
+          <img src="./images/ellipse(3).png" alt="Linkedin" width="44">
+        </a>
+      </li>
+    </ul>
+  
+    <p class="networks">Подпишитесь на рассылку</p>
+    <div>
+      <ul>
+        <li>
+          <adress><a href="" lang="en">info@example.com</a></adress>
+        </li>
+        <li><button class="button">Подписаться</button>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
 </html>

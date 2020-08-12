@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -12,18 +14,18 @@
         <a lang="en" href="./index.html" class="logo-link">
           <span class="logo-accent"> Web </span> Studio </a>
         <ul class="site-nav list">
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
+          <li><a href="./index.html"class="link current">Студия</a></li>
+          <li><a href="./Portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
 
       <ul class="site-nav list">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com></a>
+          <a href="mailto:info@devstudio.com" class="adress">info@devstudio.com></a>
         </li>
         <li>
-          <a href="tel:+380961111111">+380961111111</a>
+          <a href="tel:+380961111111" class="adress">+380961111111</a>
         </li>
       </ul>
     </header>
@@ -35,14 +37,14 @@
           ЕФФЕКТИВНЫЕ РЕШЕНИЯ<br />
           ДЛЯ ВАШЕГО БИЗНЕСА
         </h1>
-        <button type="button">Заказать услугу</button>
+        <a href="" class="button">Заказать услугу</a>
       </section>
 
     <section>
-      <ul class="product-features">
+      <ul >
         <li>
           <img src="./images/antenna1.png" alt="внимание к деталям" width="70">
-          <h2>внимание к деталям</h2>
+          <h2 class="product-features">внимание к деталям</h2>
           <p class="project">
             Идейные соображения, а также<br>
             начало повседневной работы по<br>
@@ -51,7 +53,7 @@
         </li>
         <li>
           <img src="./images/clock1.png" alt="пунктуальность" width="70">
-          <h2>пунктуальность</h2>
+          <h2 class="product-features">пунктуальность</h2>
           <p class="project">
           Задача органиции, в особенности<br>
           же рамки и место обучения кадров<br>
@@ -60,7 +62,7 @@
         </li>
         <li>
           <img src="./images/diagram1(1).png" alt="планирование" width="70">
-          <h2>планирование</h2>
+          <h2 class="product-features">планирование</h2>
           <p class="project">
           Равным образом консультация с<br> 
           широким активом в значительной<br>
@@ -69,7 +71,7 @@
         </li>
         <li>
           <img src="./images/diagram1(2).png" alt="современные технологии" width="70">
-          <h2>современные технологии</h2>
+          <h2 class="product-features">современные технологии</h2>
           <p class="project">
           Значимость этих проблем настолько<br>
           очевидна, что реализация плановых<br>
@@ -80,7 +82,7 @@
     </section>
 
     <section>
-      <h2>Чем мы занимаемся</h2>
+      <h2 section-title>Чем мы занимаемся</h2>
       <ul class="section-duties">
         <li>
          <img src="./images/img(5).png" alt="десктоп" width="370">
@@ -98,7 +100,7 @@
      </section>
 
      <section>
-     <h2>Наша команда</h2>
+     <h2 section-tite>Наша команда</h2>
      <ul class="our-team">
        <li>
          <img src="./images/img(4).png" alt="член команди" width="270" height="260">
@@ -204,10 +206,10 @@
         </section>
 
         <section> 
-          <h2> Постоянные клиенты</h2>
+          <h2 section-title>Постоянные клиенты</h2>
           <ul class="regular-customers">
             <li> 
-              <img src="./images/client1.png" alt="Логотип 1 компании" width="170">
+              <img src="./images/client1.png" alt="Логотип 1 компании" width="170" class="link-customer">
             </li>
             <li>
               <img src="./images/client2.png" alt="Логотип 2 компании" width="170">
@@ -228,12 +230,14 @@
         </section>
       </main>
 
-      <footer class="footer-bg">
+      <footer class="bg-color">
         <div>
           <a lang="en" href="./index.html" class="logo-link">
             <span class="logo-accent"> Web </span> Studio </a>
-          <address>г. Киев, пр-т Леси Украинки, 26</address>
-          <ul class="contacts">
+          <address class="address-footer"
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            </address>
+          <ul class="contacts-nav">
             <li>
               <a href="mailto:info@devstudio.com">info@devstudio.com></a>
             </li>
@@ -243,7 +247,7 @@
           </ul>
         </div>
 
-          <p class="networks">Присоеденяйтесь</p>
+          <p class="networks">Присоединяйтесь</p>
           <ul class="link">
             <li>
               <a href="" aria-label="Instagram"> 
@@ -273,7 +277,7 @@
               <li>
                 <adress><a href="" lang="en">info@example.com</a></adress>
                 </li>
-              <li><a href="">Подписаться</a>
+              <li><button class="button">Подписаться</button>
               </li>
               </ul>
             </div>
