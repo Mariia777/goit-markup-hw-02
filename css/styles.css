@@ -153,6 +153,9 @@ site-nav .link .current {
 .contacts:focus
 color: var(--primary-white-color)
 }
+.contacts-nav {
+  color: var(--primary-white-color);
+}
 
 .networks {
   font-weight: 700;
