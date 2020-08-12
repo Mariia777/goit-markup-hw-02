@@ -1,11 +1,72 @@
+:root {
+  --primary-title-color: #212121;
+  --primary-text-color: #757575;
+  --primery-accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+}
+
 body {
   background-color: #ffffff;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 
 .logo-link {
-  color: #000000;
+  color: var(--primary-black-color);
 }
 .logo-accent {
-  color: #2196f3;
+  color: var(--primery-accent-color);
+}
+/* site-nav*/
+
+.site-nav a {
+  color: var(--primary-title-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--primery-accent-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--primery-accent-color);
+}
+
+.hero-title {
+  color: #ffffff;
+  background-color: gray;
+}
+
+.project {
+  color: #757575;
+}
+
+.duties {
+  color: var(--primary-white-color);
+  background-color: var(--footer-bg-color);
+}
+
+.team {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link {
+  color: #afb1b8;
+}
+
+.site-nav link:hover,
+.site-nav link:focus {
+  color: var(--primery-accent-color);
+}
+
+.regular-customers:hover,
+.regular-customers:focus {
+  color: var(--primery-accent-color);
+}
+
+/*footer*/
+.footer-bg {
+  color: #2f303a;
 }
