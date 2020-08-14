@@ -174,11 +174,18 @@ body {
   list-style-type: none;
 }
 
+.footer-link {
+  list-style-type: none;
+}
+
 .networks {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+.footer-networks {
+  list-style-type: none;
 }
 
 .networks-link a {
@@ -198,7 +205,7 @@ body {
   color: var(--primary-title-color);
 }
 
-.logo-link {
+.logo-link a {
   color: var(--primary-black-color);
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -208,8 +215,8 @@ body {
   text-decoration: none;
 }
 
-.link current {
-  color: var(--primery-accent-color);
+.site-nav .link-current {
+  color: var(--primary-text-color);
 }
 
 .logo-accent {
@@ -225,6 +232,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--primery-accent-color);
@@ -249,6 +257,10 @@ body {
   color: var(--primery-accent-color);
 }
 
+.portfolio-filter-list {
+  list-style-type: none;
+}
+
 .heading-project:hover,
 .heading-project:focus {
   color: var(--primery-accent-color);
@@ -259,6 +271,10 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+
+.portfolio-project {
+  list-style-type: none;
 }
 
 .project {
@@ -289,6 +305,7 @@ body {
 .footer-link a {
   color: #ffffff;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .address-footer {
@@ -306,17 +323,22 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
-
-.nerworks {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+.networks-link a {
+  color: var(--primary-white-color);
 }
 
-.netwotks-link a {
+.footer-nav-link {
   color: var(--primary-white-color);
   text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-link {
+  list-style-type: none;
+}
+
+.footer-nav-link {
+  list-style-type: none;
 }
 
 .button {
