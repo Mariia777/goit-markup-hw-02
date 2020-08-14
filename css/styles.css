@@ -94,7 +94,6 @@ site-nav .link .current {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
 }
 
 .duties {
@@ -139,7 +138,6 @@ site-nav .link .current {
   color: #2f303a;
 }
 
-
 .address-footer {
   list-style: none;
   font-style: normal;
@@ -149,11 +147,7 @@ site-nav .link .current {
   letter-spacing: 0.03em;
 }
 
-.contacts:hover
-.contacts:focus
-color: var(--primary-white-color)
-}
-.contacts-nav {
+.footer-link a {
   color: var(--primary-white-color);
 }
 
@@ -161,14 +155,18 @@ color: var(--primary-white-color)
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .nerworks {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase
+  text-transform: uppercase;
+}
+
+.networks-link a {
+  color: var(--primary-white-color);
 }
 
 .button {
@@ -259,9 +257,16 @@ body {
 /*footer*/
 .bg-color {
   color: #ffffff;
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
+.logo-link {
+  color: #ffffff;
+}
+
+.footer-link a {
+  color: #ffffff;
+}
 
 .address-footer {
   list-style: none;
@@ -272,23 +277,22 @@ body {
   letter-spacing: 0.03em;
 }
 
-.contacts:hover
-.contacts:focus
-color: var(--primary-white-color)
-}
-
 .networks {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .nerworks {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase
+  text-transform: uppercase;
+}
+
+.netwotks-link a {
+  color: var(--primary-white-color);
 }
 
 .button {
