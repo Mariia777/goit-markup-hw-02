@@ -15,7 +15,7 @@ body {
   font-family: roboto, sans-serif;
 }
 
-.logo-link {
+.logo-header {
   color: var(--primary-black-color);
   font-family: raleway, sans-serif;
   font-weight: bold;
@@ -80,6 +80,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
+}
+
+.button {
+  color: var();
 }
 
 .product {
@@ -243,7 +247,10 @@ body {
   color: var(--primary-text-color);
 }
 
-.button {
+.button-list:hover,
+.button-list:focus {
+  color: var(--primary-title-color);
+  background-color: #f5f4fa;
   font-family: roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -252,9 +259,10 @@ body {
   letter-spacing: 0.03em;
 }
 
-.button:hover,
-.button:focus {
-  color: var(--primery-accent-color);
+.button-list:hover,
+.button-list:focus {
+  color: #ffffff;
+  background-color: var(--primery-accent-color);
 }
 
 .portfolio-filter-list {
