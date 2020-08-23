@@ -42,6 +42,7 @@ body {
 .site-nav a {
   color: var(--primary-title-color);
   font-family: roboto, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -69,8 +70,8 @@ body {
 }
 
 .button {
-  color: var(--primary-white-color);
-  background-color: var(--primery-accent-color);
+  color: var(--primary-black-color);
+  background-color: var();
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -217,6 +218,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
+  width: 49px;
+  height: 16px;
 }
 
 .site-nav .link-current {
@@ -247,8 +250,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.button-list:hover,
-.button-list:focus {
+.button-list {
   color: var(--primary-title-color);
   background-color: #f5f4fa;
   font-family: roboto, sans-serif;
@@ -257,6 +259,8 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  width: 128px;
+  height: 38;
 }
 
 .button-list:hover,
