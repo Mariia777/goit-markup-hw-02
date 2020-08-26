@@ -39,7 +39,7 @@ body {
 
 /* site-nav*/
 
-.site-nav a {
+.site-nav list a {
   color: var(--primary-title-color);
   font-family: roboto, sans-serif;
   font-style: normal;
@@ -175,7 +175,8 @@ body {
 }
 
 .footer .link a {
-  color: var(--primary-white-color);
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
   list-style-type: none;
 }
 
@@ -189,6 +190,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 .footer-networks {
   list-style-type: none;
 }
@@ -312,12 +314,28 @@ body {
 .logo-link {
   color: #ffffff;
   text-decoration: none;
+  font-family: raleway, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-.footer-link a {
-  color: #ffffff;
+.logo-link:hover,
+.logo-link:focus {
+  color: var(--primery-accent-color);
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   list-style-type: none;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--primery-accent-color);
 }
 
 .address-footer {
@@ -335,6 +353,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 .networks-link a {
   color: var(--primary-white-color);
 }
@@ -342,11 +361,6 @@ body {
 .footer-nav-link {
   color: var(--primary-white-color);
   text-decoration: none;
-  list-style-type: none;
-}
-
-.footer-link {
-  list-style-type: none;
 }
 
 .footer-nav-link {
@@ -356,4 +370,9 @@ body {
 .button {
   color: var(--primary-white-color);
   background-color: var(--primery-accent-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primery-accent-color);
 }
