@@ -11,7 +11,6 @@
 body {
   background-color: #ffffff;
   color: var(--primary-title-color);
-
   font-family: roboto, sans-serif;
 }
 
@@ -49,13 +48,47 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav a:hover,
-.site-nav a:focus {
+
+.site-nav a {
+  margin-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav:hover,
+.site-nav:focus {
   color: var(--primery-accent-color);
 }
 
-.site-nav .adress {
+.site-nav-adress a {
   color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav-adress {
+  list-style-type: none;
+}
+
+.site-nav-adress {
+  display: flex;
+}
+
+.site-nav-adress .item + .item {
+  margin-left: 30px;
+}
+
+.site-nav-adress a:hover,
+.site-nav-adress a:focus {
+  color: var(--primery-accent-color);
 }
 
 .hero-title {
@@ -144,15 +177,13 @@ body {
   color: var(--primary-text-color);
 }
 
-.site-nav-list {
-  color: #afb1b8;
-  text-decoration: none;
-  list-style-type: none;
+.site-nav-list:hover,
+.site-nav-list:focus {
+  color: var(--primery-accent-color);
 }
 
-.site-nav-link:hover,
-.site-nav-link:focus {
-  color: var(--primery-accent-color);
+.site-nav-list {
+  list-style-type: none;
 }
 
 .regular-customers {
