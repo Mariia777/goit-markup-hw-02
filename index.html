@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="page-header">
+      <div class="container flexbox">
+      <nav class="container main-nav">
         <a lang="en" href="./index.html" class="logo-header">
           <span class="logo-accent"> Web </span> Studio </a>
         <ul class="site-nav list">
@@ -18,7 +19,6 @@
           <li><a href="./Portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
-      </nav>
 
       <ul class="site-nav-adress">
         <li class="item">
@@ -28,81 +28,82 @@
           <a href="tel:+380961111111" class="adress">+380961111111</a>
         </li>
       </ul>
+      </nav>
+      </div>
     </header>
 
     <main>
       <!-- Герой -->
       <section class="hero">
+        <div class="container"
         <h1 class="hero-title">
           ЕФФЕКТИВНЫЕ РЕШЕНИЯ<br />
           ДЛЯ ВАШЕГО БИЗНЕСА
         </h1>
-        <a href="" class="button">Заказать услугу</a>
+        <button class="button">Заказать услугу</button>
+      </div>
       </section>
 
-    <section>
+    <section class="section">
+      <div class="container">
       <ul class="product">
-        <li>
+        <li class="item">
           <img src="./images/antenna1.png" alt="внимание к деталям" width="70">
           <h2 class="product-features">внимание к деталям</h2>
           <p class="project">
-            Идейные соображения, а также<br>
-            начало повседневной работы по<br>
-            формированию позиции.
+            Идейные соображения, а также начало повседневной работы по формированию позиции.
           </p>
         </li>
-        <li>
+        <li class="item">
           <img src="./images/clock1.png" alt="пунктуальность" width="70">
           <h2 class="product-features">пунктуальность</h2>
           <p class="project">
-          Задача органиции, в особенности<br>
-          же рамки и место обучения кадров<br>
-          влечет за собой.
+          Задача органиции, в особенности же рамки и место обучения кадров влечет за собой.
           </p>
         </li>
-        <li>
+        <li class="item">
           <img src="./images/diagram1(1).png" alt="планирование" width="70">
           <h2 class="product-features">планирование</h2>
           <p class="project">
-          Равным образом консультация с<br> 
-          широким активом в значительной<br>
-          степени обуславливает.
+          Равным образом консультация с широким активом в значительной степени обуславливает.
           </p>
         </li>
-        <li>
+        <li class="item">
           <img src="./images/diagram1(2).png" alt="современные технологии" width="70">
           <h2 class="product-features">современные технологии</h2>
           <p class="project">
-          Значимость этих проблем настолько<br>
-          очевидна, что реализация плановых<br>
-          заданий.
+          Значимость этих проблем настолько очевидна, что реализация плановых заданий.
           </p>
         </li>
       </ul>
+      </div>
     </section>
 
     <section>
+      <div class="container"
       <h2 section-title>Чем мы занимаемся</h2>
       <ul class="section-duties">
-        <li>
+        <li class="service-item">
          <img src="./images/img(5).png" alt="десктоп" width="370">
          <p class="duties">десктопные приложения</p>
         </li>
-        <li>
+        <li class="service-item">
           <img src="./images/box.png" alt="мобильный телефон" width="370">
           <p class="duties">мобильные приложения</p>
         </li>
-        <li>
+        <li class="service-item">
           <img src="./images/img(6).png" alt="дизайн" width="370">
           <p class="duties">дизайнерские решения</p>
         </li>
       </ul>
+    </div>
      </section>
 
      <section>
+       <div class="container">
      <h2 section-tite>Наша команда</h2>
      <ul class="our-team">
-       <li>
+       <li class="team-list">
          <img src="./images/img(4).png" alt="член команди" width="270" height="260">
          <h3>Николай Кучеренко</h3>
          <p lang="en" class="team">Product Designer</p>
@@ -127,7 +128,7 @@
         </li>
       </ul>
       </li>
-       <li>
+       <li class="team-list">
          <img src="./images/img(1).png" alt="член команди" width="270" height="260">
        <h3>Ольга Иванова</h3>
        <p lang="en" class="team">Frontend Developer</p>
@@ -152,7 +153,7 @@
       </li>
       </ul>
       </li>
-       <li>
+       <li class="team-list">
         <img src="./images/img(2).png" alt="член команди" width="270" height="260">
         <h3>Андрей Шевченко</h3>
         <p lang="en" class="team">Marketing</p>
@@ -177,7 +178,7 @@
         </li>
         </ul>
         </li>
-        <li>
+        <li class="team-list">
           <img src="./images/img(3).png" alt="член команди" width="270" height="260">
           <h3>Иван Николаев</h3>
           <p lang="en" class="team">UI Designer</p>
@@ -203,9 +204,11 @@
          </ul>
         </li>
         </ul>
+        </div>
         </section>
 
         <section> 
+          <div class="container">
           <h2>Постоянные клиенты</h2>
           <ul class="regular-customers">
             <li> 
@@ -227,6 +230,7 @@
               <img src="./images/client6.png" alt="Логотип 6 компании" width="170">
             </li>
           </ul>
+          </div>
         </section>
       </main>
 
@@ -247,6 +251,7 @@
           </ul>
         </div>
 
+        <div>
           <p class="networks">Присоединяйтесь</p>
           <ul class="footer-nav-link">
             <li>
@@ -270,9 +275,10 @@
                 </a>
               </li>
             </ul>
+            </div>
 
+            <div>
               <p class="networks">Подпишитесь на рассылку</p>
-              <div>
               <ul class="footer-networks">
               <li>
                 <adress class="networks-link"><a href="index.html" lang="en">info@example.com</a></adress>

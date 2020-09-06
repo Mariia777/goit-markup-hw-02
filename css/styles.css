@@ -7,11 +7,28 @@
   --secondary-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
 }
+.html {
+  box-sizing: border-box;
+}
 
-body {
+.body {
   background-color: #ffffff;
   color: var(--primary-title-color);
   font-family: roboto, sans-serif;
+  margin: 0;
+}
+
+.page-header {
+  padding: 24px 0px;
+  margin-bottom: 95px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-header {
@@ -22,10 +39,23 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 85px;
 }
 
 .logo-accent {
   color: var(--primery-accent-color);
+}
+
+.flexbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 
 .site-nav {
@@ -76,6 +106,7 @@ body {
 }
 .site-nav-adress {
   list-style-type: none;
+  margin-left: auto;
 }
 
 .site-nav-adress {
@@ -91,6 +122,11 @@ body {
   color: var(--primery-accent-color);
 }
 
+.hero {
+  text-align: center;
+  margin-bottom: 94px;
+}
+
 .hero-title {
   color: #ffffff;
   background-color: gray;
@@ -100,28 +136,52 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .button {
-  color: var(--primary-black-color);
-  background-color: var();
-  font-family: inherit;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.87;
   letter-spacing: 0.06em;
-  text-decoration: none;
+  background-color: var(--accent-text);
+  text-align: center;
+  padding: 10px 32px;
+  display: inline-block;
 }
 
-.button {
-  color: var();
+.button-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-bottom: 95px;
 }
 
 .product {
   list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.product .item {
+  margin-right: 30px;
+  width: calc((100% - 30px * 3) / 4);
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .product-features:hover,
