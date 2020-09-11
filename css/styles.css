@@ -7,6 +7,7 @@
   --secondary-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
 }
+
 .html {
   box-sizing: border-box;
 }
@@ -156,7 +157,7 @@
   display: inline-block;
 }
 
-.button-title {
+.button {
   margin-left: auto;
   margin-right: auto;
 }
@@ -207,9 +208,18 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
+
 .section-duties {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-item {
+  width: calc((100% - 30px) / 3);
+  margin-right: 30px;
 }
 
 .duties {
@@ -224,26 +234,59 @@
   list-style-type: none;
 }
 
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+  margin-bottom: 50px;
+}
+
 .our-team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
   list-style-type: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.our-team:not(:last-child) {
+  width: calc((100% - 30px) / 4);
+  margin-right: 30px;
+}
+
+.team-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team {
   color: var(--primary-text-color);
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.site-nav-list:hover,
-.site-nav-list:focus {
-  color: var(--primery-accent-color);
+.section-nav-list {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
 }
 
-.site-nav-list {
+.section-nav-list {
   list-style-type: none;
+}
+
+.networks-link a:hover,
+.networks-link a:focus {
+  color: var(--primery-accent-color);
 }
 
 .regular-customers {
