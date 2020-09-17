@@ -293,10 +293,37 @@
   list-style-type: none;
 }
 
+.regular-customers {
+  display: flex;
+}
+
+.clients:not(:last-child) {
+  width: calc((100% - 30px) / 6);
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
+
+.img-regular-customers:hover {
+  background-color: var(--accent-text);
+}
+
 /*footer*/
-.background-color {
+.bg-color {
   color: #2f303a;
+  height: 252px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.bg-color {
   list-style-type: none;
+}
+
+.logo-link {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .address-footer {
@@ -311,7 +338,13 @@
 .footer-link a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  list-style-type: none;
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-hight: 24px;
+  letter-spacing: 0.03em;
+  margin-top: 9px;
 }
 
 .footer-link {
