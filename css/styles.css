@@ -208,6 +208,7 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--text-title-color);
   margin-bottom: 50px;
 }
 
@@ -315,6 +316,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  padding-left: 214px;
 }
 
 .bg-color {
@@ -366,6 +368,11 @@
   color: var(--primary-white-color);
   text-decoration: none;
   list-style-type: none;
+}
+
+.footer-nav-link {
+  display: flex;
+  margin-left: 10px;
 }
 
 .button {
@@ -525,9 +532,10 @@ body {
   color: var(--primary-white-color);
 }
 
-.footer-nav-link {
+.footer-nav-link a {
   color: var(--primary-white-color);
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .footer-nav-link {
