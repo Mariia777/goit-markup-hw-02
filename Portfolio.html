@@ -13,7 +13,8 @@
 
   <body>
     <header class="page-header">
-      <nav>
+      <div class="container flexbox">
+      <nav class="container main-nav">
         <a lang="en" href="index.html" class="logo-header">
           <span class="logo-accent"> Web </span> Studio
         </a>
@@ -34,78 +35,116 @@
           <a href="tel:+380961111111" class="adress">+380961111111</a>
         </li>
       </ul>
+      </div>
     </header>
 
     <main>
       <section class="portfolio">
-        <h1>Портфолио</h1>
+        <h1 hidden>Портфолио</h1>
         <ul class="portfolio-filter-list">
-          <li><button type="button" class="button-list">Все</button></li>
-          <li><button type="button" class="button-list">Веб-сайт</button></li>
-          <li><button type="button" class="button-list">Приложения</button></li>
-          <li><button type="button" class="button-list">Дизайн</button></li>
-          <li><button type="button" class="button-list">Маркетинг</button></li>
+          <li class="btn"><button type="button" class="button-list">Все</button></li>
+          <li class="btn"><button type="button" class="button-list">Веб-сайт</button></li>
+          <li class="btn"><button type="button" class="button-list">Приложения</button></li>
+          <li class="btn"><button type="button" class="button-list">Дизайн</button></li>
+          <li class="btn"><button type="button" class="button-list">Маркетинг</button></li>
         </ul>
 
         <!----project hero---->
+        <section class="container">
         <ul class="portfolio-project menu">
-          <li>
+          <li class="elements">
+            <a href="#">
             <img
               src="./images/img(15).png"
               alt="notebook"
               width="370"
               height="294">
+              <div class="elements-item">
             <h2 class="heading-project">Технокряк</h2>
             <p class="project">Веб-сайт</p>
-            <p class="text-project">
+          </div>
+          </a>
+            <!-- <p class="card-hover">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p>
+            </p> -->
           </li>
-          <li>
+          <li class="elements">
+            <a href="#">
             <img src="./images/img(7).png" alt="poster" width="370" />
+            <div class="elements-item">
             <h2 class="heading-project">Постер New Orlean vs Golden Star</h2>
             <p class="project">Дизайн</p>
+            </div>
+            </a>
           </li>
-          <li>
+          <li class="elements">
+            <a href="#">
             <img src="./images/img(8).png" alt="seafood" width="370" />
+            <div class="elements-item">
             <h2 class="heading-project">Ресторан Seafood</h2>
             <p class="project">Приложение</p>
+            </div>
+            </a>
           </li>
-          <li>
+          <li class="elements">
+            <a href="#">
             <img src="./images/img(9).png" alt="prime" width="370" />
-            <h2 class="heading-project">Проект Prime</h2>
+            <div class="elements-item">
+              <h2 class="heading-project">Проект Prime</h2>
             <p class="project">Маркетинг</p>
+            </div>
+            </a>
           </li>
-          <li>
+          <li class="elements">
+            <a href="#">
             <img src="./images/img(10).png" alt="boxes" width="370" />
+            <div class="elements-item">
             <h2 class="heading-project">Проект Boxes</h2>
             <p class="project">Приложение</p>
+            </div>
+            </a>
           </li>
-          <li>
+          <li class="elements">
+            <a href="#">
             <img src="./images/img(11).png" alt="solutions" width="370" />
+            <div class="elements-item">
             <h2 class="heading-project">Inspiration has no Borders</h2>
             <p class="project">Веб-сайт</p>
+            </div>
+            </a>
           </li>
-          <li>
+          <li class="elements">
+            <a href="#">
             <img src="./images/img(12).png" alt="limited-edition" width="370" />
+            <div class="elements-item">
             <h2 class="heading-project">Издание Limited Edition</h2>
             <p class="project">Дизайн</p>
+            </div>
+            </a>
           </li>
-          <li>
+          <li class="elements">
+            <a href="#">
             <img src="./images/img(13).png" alt="project-lab" width="370" />
+            <div class="elements-item">
             <h2 class="heading-project">Проект LAB</h2>
             <p class="project">Маркетинг</p>
+            </div>
+            </a>
           </li>
-          <li>
+          <li class="elements">
+            <a href="#">
             <img
               src="./images/img(14).png"
               alt="g0rowing-business"
               width="370"
             />
+            <div class="elements-item">
             <h2 class="heading-project">Growing Business</h2>
             <p class="project">Приложения</p>
+            </div>
+            </a>
           </li>
         </ul>
       </section>
